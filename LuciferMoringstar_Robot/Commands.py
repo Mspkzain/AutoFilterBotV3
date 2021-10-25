@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 New Movies🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🎬 New Movies 🎬', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -116,8 +116,8 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("Request Group", url=f'https://t.me/joinchat/sxRlIPJYQQo4ODU1')
-                ],[
-                InlineKeyboardButton("Help", callback_data="help"),
+                ],[InlineKeyboardButton("Request Group", url=],[
+                InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )

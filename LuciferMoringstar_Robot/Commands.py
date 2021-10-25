@@ -116,7 +116,9 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("Request Group", url=f'https://t.me/joinchat/sxRlIPJYQQo4ODU1')
-                ],[InlineKeyboardButton("Request Group", url=],[
+                ],[
+                InlineKeyboardButton("Request Group", url=f'https://t.me/NS_file)
+                ],[
                 InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
                 ]]

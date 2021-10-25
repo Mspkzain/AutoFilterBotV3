@@ -122,7 +122,7 @@ async def start(bot, message):
                 InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
                 ],[
-                InlinekeyboardButton("🔙 Back", url=f'https://t.me/NS_File')]]
+                InlineKeyboardButton("🔙 Back", url=f'https://t.me/NS_File')]]
             )
         )
         StopPropagation

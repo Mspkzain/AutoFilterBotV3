@@ -121,7 +121,23 @@ async def start(bot, message):
                 ],[
                 InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
+                ],[
+                InlinekeyboardStopPropagation)", await message.reply_text(
+            START_MSG,
+            parse_mode="Markdown",
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [[
+                InlineKeyboardButton("Request Group", url=f'https://t.me/joinchat/sxRlIPJYQQo4ODU1')
+                ],[
+                InlineKeyboardButton("Request Group", switch_inline_query_current_chat='')
+                ],[
+                InlineKeyboardButton("More", callback_data="help"),
+                InlineKeyboardButton("About", callback_data="about")
                 ]]
+            )
+        )
+        StopPropagation) ]]
             )
         )
         StopPropagation

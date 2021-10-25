@@ -123,6 +123,7 @@ async def start(bot, message):
                 InlineKeyboardButton("About", callback_data="about")
                 ],[
                 InlinekeyboardButton("🔙 Back",
+    else:
         await message.reply_text(
             START_MSG,
             parse_mode="Markdown",

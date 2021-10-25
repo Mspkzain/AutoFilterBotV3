@@ -117,7 +117,7 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("👥 Request Group 👥", url=f'https://t.me/joinchat/sxRlIPJYQQo4ODU1')
                 ],[
-                InlineKeyboardButton("⏪️ Inline ⏩️", switch_inline_query_current_chat='')
+                InlineKeyboardButton("Go to Inline", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")

@@ -11,28 +11,24 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
+**Basic Commands** 
 
 /start :- check am Alive
 
-Bot Owner Only
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
+/futures :- my more futures
+
+/rule :- rules of bot
+
+/owner :- to contact bot owner
 
 """
 
 ABOUT = """
-➥ Name :  **FLASH**
+➡️ Name :    **Flash ⚡️**
     
-➥ Creator : SABITH.PK
+➡️ Creator : **Sabith pk**
 
-➥ Language : Python3
+➡️ Language : **Python3**
 
-➥ Library : Pyrogram Asyncio 1.13.0
+➡️ Library : **Pyrogram** Asyncio 1.13.0 & **mythron** 3.5
 """

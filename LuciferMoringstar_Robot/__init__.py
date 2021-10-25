@@ -11,24 +11,24 @@ from .Channel import (
 )
 
 HELP = """
-**Basic Commands** 
+   **Basic Commands** 
 
-/start :- check am Alive
+/start   :- check am Alive
 
 /futures :- my more futures
 
-/rule :- rules of bot
+/rule    :- rules of bot
 
-/owner :- to contact bot owner
+/owner   :- to contact bot owner
 
 """
 
 ABOUT = """
-➡️ Name :    **Flash ⚡️**
+➡️ Name     : **Flash ⚡️**
     
-➡️ Creator : **Sabith pk**
+➡️ Creator  : **Sabith pk**
 
 ➡️ Language : **Python3**
 
-➡️ Library : **Pyrogram** Asyncio 1.13.0 & **mythron** 3.5
+➡️ Library  : **Pyrogram** Asyncio 1.13.0 & **mythron** 3.5
 """

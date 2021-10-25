@@ -115,14 +115,13 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Request Group", url=f'https://t.me/joinchat/sxRlIPJYQQo4ODU1')
+                InlineKeyboardButton("👥 Request Group 👥", url=f'https://t.me/joinchat/sxRlIPJYQQo4ODU1')
                 ],[
-                InlineKeyboardButton("Request Group", switch_inline_query_current_chat='')
+                InlineKeyboardButton("⏪️ Inline ⏩️", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
-                ],[
-                InlineKeyboardButton("🔙 Back", url=f'https://t.me/NS_File')]]
+                ]]
             )
         )
         StopPropagation
@@ -331,8 +330,5 @@ async def delete(bot, message):
         await msg.edit('File not found in database')
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
-    buttons = [
-        [
-            
-            InlineKeyboardButton('🔝 Main Menu', url=f'https://telegram.dog/Flash_The_Movie_FinderBot?start')]]
+    buttons = [[InlineKeyboardButton("🔝 Main Menu", url=f'https://telegram.dog/Flash_The_Movie_FinderBot?start')]]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)

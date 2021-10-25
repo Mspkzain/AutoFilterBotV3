@@ -122,7 +122,7 @@ async def start(bot, message):
                 InlineKeyboardButton("More", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
                 ],[
-                InlinekeyboardStopPropagation)", await message.reply_text(
+                InlinekeyboardButton("🔙 Back", await message.reply_text(
             START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,

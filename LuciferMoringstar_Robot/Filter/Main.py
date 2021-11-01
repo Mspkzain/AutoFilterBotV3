@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('🔄 Restart', url=f'https://telegram.dog/Flash_The_Movie_FinderBot?start')
+                    InlineKeyboardButton('🔄 Restart', url=f'https://telegram.dog/TG_Filim_bot?start=')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🔄 Restart', url=f'https://telegram.dog/Flash_The_Movie_FinderBot?start')
+                    InlineKeyboardButton('🔄 Restart', url=f'https://telegram.dog/TG_Filim_bot?start=')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)

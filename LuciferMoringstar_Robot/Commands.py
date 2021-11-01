@@ -332,3 +332,6 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [[InlineKeyboardButton("🔄 Restart", url=f'https://telegram.dog/TG_Filim_bot?start=')]]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+
+@Client.on_message(filters.command("futures"))
+async def Adding.. New Futurs 
